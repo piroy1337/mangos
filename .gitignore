@@ -17,6 +17,17 @@
 *.so.dbg
 *.bin
 *.gz
+*.map
+*.dbc
+*.log
+*.dll
+*.exe
+*.pdb
+*.conf
+*.txt
+*.conf.dist.in
+*.lib
+*.exp
 
 #
 # Top-level generic files
