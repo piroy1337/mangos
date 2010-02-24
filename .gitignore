@@ -17,7 +17,18 @@
 *.so.dbg
 *.bin
 *.gz
-
+*.map
+*.dbc
+*.log
+*.dll
+*.exe
+*.pdb
+*.conf
+*.txt
+*.conf.dist.in
+*.lib
+*.exp
+ 
 #
 # Top-level generic files
 #
@@ -25,7 +36,7 @@ tags
 TAGS
 INSTALL
 !.gitignore
-
+ 
 #
 # Build generated files
 #
@@ -44,10 +55,10 @@ install-sh
 ltmain.sh
 missing
 stamp-h1
-
+ 
 Makefile.in
 Makefile
-
+ 
 #
 # Editors / debuggers / other output files
 #
@@ -56,20 +67,21 @@ Makefile
 *.orig
 *.patch
 callgrind.out.*
-
+ 
 #
 # Git stuff
 #
 # stgit directories
 patches-*
-
+ 
 #
 # VS binaries output
 #
 bin/*
-
+ 
 #
 # Special exceptions
 #
 !dep/ACE_wrappers/ace/ace_message_table.bin
 !dep/tbb/src/Makefile
+ 
