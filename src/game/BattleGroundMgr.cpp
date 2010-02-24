@@ -1687,8 +1687,8 @@ void BattleGroundMgr::CreateInitialBattleGrounds()
         //check values from DB
         if (MaxPlayersPerTeam == 0 || MinPlayersPerTeam == 0 || MinPlayersPerTeam > MaxPlayersPerTeam)
         {
-            MinPlayersPerTeam = 0;                          // by default now expected strong full bg requirement
-            MaxPlayersPerTeam = 40;
+            MaxPlayersPerTeam = bl->maxplayersperteam;
+            MinPlayersPerTeam = bl->maxplayersperteam;      // by default now expected strong full bg requirement
         }
         if (MinLvl == 0 || MaxLvl == 0 || MinLvl > MaxLvl)
         {
